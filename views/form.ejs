@@ -1,0 +1,28 @@
+<!--Opening the ejs tags for including header file-->
+<%- include("./partials/header") %>
+<!-- Creating a form where action will 
+    be on "/" and the method will be "POST" -->
+<div class="container">
+    <br>
+    <h2>Registro de usuarios para la api-key</h2>
+    <br>
+    <form action="/" method="POST">
+        <div class="form-group">
+            <label>Nombre: </label>
+            <input type="text" class="form-control" placeholder="Ingrese su nombre" name="name" required>
+        </div>
+        <div class="form-group">
+            <label>Apellido: </label>
+            <input type="text" class="form-control" placeholder="Ingrese su apellido" name="surname" required>
+        </div>
+        <div class="form-group">
+            <label>Email: </label>
+            <input type="email" class="form-control" placeholder="Ingrese el email" name="email" required>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!--Opening the ejs tags for including footer file-->
+<%- include("./partials/footer") %>

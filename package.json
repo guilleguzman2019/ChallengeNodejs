@@ -1,0 +1,22 @@
+{
+  "name": "challenge-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.1",
+    "generate-key": "0.0.6",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0"
+  }
+}
